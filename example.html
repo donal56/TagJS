@@ -1,0 +1,17 @@
+<html>
+<head>
+<script src= "tag.js"></script>
+</head>
+<body>
+<div id="tag"></div>
+<button onclick= "alert(myTag.getAll())">
+Imprimir
+</button>
+<button onclick= "myTag.clear()">
+Limpiar
+</button>
+<script>
+	let myTag = new TagJS(document.querySelector("#tag"));
+</script>
+</body>
+</html>
